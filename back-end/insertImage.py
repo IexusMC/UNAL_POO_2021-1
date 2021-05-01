@@ -1,6 +1,6 @@
-import sqlite3
-from sqlite3 import Error
-from PIL import Image
+import sqlite3  #Librería sqlite3. Está incluída por defecto. Permite elaborar y manipular bases de datos
+from sqlite3 import Error 
+from PIL import Image #Librería PIL. Está incluída por defecto. Importa el método Image con el fin de producir una imagen.
 
 ## TODO comments
 
