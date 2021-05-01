@@ -1,6 +1,6 @@
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+import smtplib #Librería smtplib esta incluida por defecto. Permite la creación y envío de correos electrónicos.
+from email.mime.multipart import MIMEMultipart #Librería incluída por defecto MIMEMultipart, con el fin de organizar los datos relacionados a la aplicación de correos electrónicos (remitente y destinatario).
+from email.mime.text import MIMEText #Librería incluída por defecto. Se importa MIMEText para permitir la redacción del mensaje a enviar por correo electrónico.
 
 mensajeObj = MIMEMultipart()
 mensaje = 'Hola\nEste es un mensaje de prueba para mi app'
